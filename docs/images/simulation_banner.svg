@@ -1,0 +1,40 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Bangladesh flag colors gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#006A4E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#006A4E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F42A41;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Rectangle -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+  
+  <!-- Red Circle from Bangladesh Flag -->
+  <circle cx="300" cy="150" r="80" fill="#F42A41" />
+  
+  <!-- Title Text -->
+  <text x="450" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">
+    Bangladesh Education Simulation
+  </text>
+  
+  <!-- Subtitle Text -->
+  <text x="450" y="180" font-family="Arial, sans-serif" font-size="32" fill="white">
+    2025 - 2035 Projection
+  </text>
+  
+  <!-- Decorative Elements -->
+  <g fill="white" opacity="0.15">
+    <!-- School icon -->
+    <path d="M900,100 L950,70 L1000,100 L1000,180 L900,180 Z" />
+    <rect x="945" y="180" width="10" height="20" />
+    
+    <!-- Book icon -->
+    <path d="M850,150 Q880,120 910,150 L910,210 Q880,180 850,210 Z" />
+    
+    <!-- Graduate hat icon -->
+    <path d="M750,150 L800,130 L850,150 L800,170 Z" />
+    <path d="M800,170 L800,190 L820,180 L820,155" />
+  </g>
+</svg> 
